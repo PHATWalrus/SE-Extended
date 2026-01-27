@@ -2,12 +2,12 @@
     "setup": {
         "dialogs": {
             "select_language": "Nyelv kiválasztása",
-            "save_folder": "A SnapEnhance-nek tárhelyhozzáférésre van szüksége média mentéséhez és letöltéséhez. \nKérem válassza ki a média mentési helyét.",
+            "save_folder": "A SE Extended-nek tárhelyhozzáférésre van szüksége média mentéséhez és letöltéséhez. \nKérem válassza ki a média mentési helyét.",
             "select_save_folder_button": "Mappa kiválasztása"
         },
         "mappings": {
             "dialog": "Hozzárendelések generálása, ez eltarthat egy darabig ...",
-            "generate_failure_no_snapchat": "A SnapEnhance nem találja a Snapchatet, próbálja meg újra telepíteni a Snapchatet.",
+            "generate_failure_no_snapchat": "A SE Extended nem találja a Snapchatet, próbálja meg újra telepíteni a Snapchatet.",
             "generate_failure": "Hiba történt a beállítások mentése során, kérjük próbálja meg újra."
         },
         "permissions": {
@@ -71,14 +71,14 @@
                 "failed_to_open_file": "Fájl megnyitása sikertelen"
             },
             "home": {
-                "update_title": "SnapEnhance frissítés",
+                "update_title": "SE Extended frissítés",
                 "update_content": "A(z) {version} már elérhető!",
                 "update_button": "Letöltés",
                 "version_title": "V{versionName} · bocajthomas által",
                 "debug_build_summary_content": "Verzió {versionName} ({versionCode})",
                 "debug_build_summary_date": "Buildelés dátuma: {date} ({days} napja)",
                 "quick_actions_title": "Gyors műveletek",
-                "debug_build_summary_title": "Egy debug verziót használsz a SnapEnhance-ből"
+                "debug_build_summary_title": "Egy debug verziót használsz a SE Extended-ből"
             },
             "home_settings": {
                 "view_logger_history_button": "Naplóelőzmények megtekintése",
@@ -195,7 +195,7 @@
                 "category_friends": "Barátok"
             },
             "scripting_warning": {
-                "content": "A SnapEnhance egy script-író eszközt, amely lehetővé teszi a felhasználó által meghatározott kódok végrehajtását az eszközön. Használja fokozott óvatossággal és csak megbízható forrásból származó modulokat telepítsen. A nem engedélyezett vagy nem ellenőrzött modulok biztonsági kockázatokat jelenthetnek a rendszerének.",
+                "content": "A SE Extended egy script-író eszközt, amely lehetővé teszi a felhasználó által meghatározott kódok végrehajtását az eszközön. Használja fokozott óvatossággal és csak megbízható forrásból származó modulokat telepítsen. A nem engedélyezett vagy nem ellenőrzött modulok biztonsági kockázatokat jelenthetnek a rendszerének.",
                 "title": "Figyelmeztetés"
             },
             "reset_config": {
@@ -921,7 +921,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Összetevő Naplók",
-                                        "description": "A Composer konzolnaplóit átirányítja a SnapEnhance felé"
+                                        "description": "A Composer konzolnaplóit átirányítja a SE Extended felé"
                                     },
                                     "show_first_created_username": {
                                         "name": "Első felhasználónév megjelenítése",
@@ -1114,7 +1114,7 @@
                         "name": "Régi Eszköztár Hozzáadása Nézet"
                     }
                 },
-                "description": "Egyéni szkriptek futtatása a SnapEnhance bővítéséhez",
+                "description": "Egyéni szkriptek futtatása a SE Extended bővítéséhez",
                 "name": "Szkriptelés"
             },
             "friend_tracker": {
@@ -1283,7 +1283,7 @@
             },
             "auto_reload": {
                 "snapchat_only": "Csak Snapchat",
-                "all": "Összes (Snapchat + SnapEnhance)"
+                "all": "Összes (Snapchat + SE Extended)"
             },
             "disable_cameras": {
                 "front": "Előlapi kamera",
@@ -1550,7 +1550,7 @@
         },
         "change_language": {
             "name": "Nyelv módosítása",
-            "description": "A SnapEnhance nyelvének módosítása"
+            "description": "A SE Extended nyelvének módosítása"
         },
         "export_memories": {
             "name": "Emlékek exportálása",

@@ -2,12 +2,12 @@
     "setup": {
         "dialogs": {
             "select_language": "Выберите язык",
-            "save_folder": "SnapEnhance требует разрешения хранилища для загрузки и сохранения медиафайлов из Snapchat.\nВыберите место, куда следует загружать медиафайлы.",
+            "save_folder": "SE Extended требует разрешения хранилища для загрузки и сохранения медиафайлов из Snapchat.\nВыберите место, куда следует загружать медиафайлы.",
             "select_save_folder_button": "Выберите папку"
         },
         "mappings": {
             "dialog": "Составление карт, это может занять некоторое время ...",
-            "generate_failure_no_snapchat": "SnapEnhance не удалось обнаружить Snapchat, попробуйте переустановить Snapchat.",
+            "generate_failure_no_snapchat": "SE Extended не удалось обнаружить Snapchat, попробуйте переустановить Snapchat.",
             "generate_failure": "Произошла ошибка при генерации сопоставлений, пожалуйста, попробуйте еще раз."
         },
         "permissions": {
@@ -55,7 +55,7 @@
                 "update_content": "Версия {version} доступна!",
                 "update_button": "Скачать",
                 "debug_build_summary_content": "Версия {названиеВерсии} ({кодВерсии})",
-                "debug_build_summary_title": "Вы используете устранение ошибок от SnapEnhance",
+                "debug_build_summary_title": "Вы используете устранение ошибок от SE Extended",
                 "version_title": "v(названиеВерсии) · создал rhunk",
                 "debug_build_summary_date": "Назначить дату: {дата} ({дни} дней назад)",
                 "quick_actions_title": "Быстрые Действия"
@@ -191,7 +191,7 @@
         "dialogs": {
             "scripting_warning": {
                 "title": "Предупреждение",
-                "content": "SnapEnhance включает в себя инструмент сценариев, позволяющий выполнять пользовательский код на вашем устройстве. Будьте предельно осторожны и устанавливайте модули только из известных и надежных источников. Неавторизованные или непроверенные модули могут представлять угрозу безопасности вашей системы."
+                "content": "SE Extended включает в себя инструмент сценариев, позволяющий выполнять пользовательский код на вашем устройстве. Будьте предельно осторожны и устанавливайте модули только из известных и надежных источников. Неавторизованные или непроверенные модули могут представлять угрозу безопасности вашей системы."
             },
             "reset_config": {
                 "title": "Сбросить конфигурацию",
@@ -606,7 +606,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Логи Composer",
-                                        "description": "Перенаправляет журналы консоли Composer в SnapEnhance"
+                                        "description": "Перенаправляет журналы консоли Composer в SE Extended"
                                     },
                                     "composer_console": {
                                         "name": "Консоль Composer",
@@ -1178,7 +1178,7 @@
                     }
                 },
                 "name": "Скриптинг",
-                "description": "Запуск пользовательских скриптов для расширения SnapEnhance"
+                "description": "Запуск пользовательских скриптов для расширения SE Extended"
             },
             "friend_tracker": {
                 "name": "Трекер друзей",
@@ -1334,7 +1334,7 @@
                 "failure": "Ошибка"
             },
             "auto_reload": {
-                "all": "Все (Snapchat + SnapEnhance)",
+                "all": "Все (Snapchat + SE Extended)",
                 "snapchat_only": "Только Snapchat"
             },
             "edit_text_override": {
@@ -1473,7 +1473,7 @@
             "description": "Экспортирует воспоминания в ZIP-файл"
         },
         "change_language": {
-            "description": "Изменяет язык SnapEnhance",
+            "description": "Изменяет язык SE Extended",
             "name": "Изменение языка"
         },
         "clean_snapchat_cache": {

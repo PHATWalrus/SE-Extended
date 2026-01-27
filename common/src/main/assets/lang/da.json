@@ -115,10 +115,10 @@
                 "delete_all_option": "Slet alt"
             },
             "home": {
-                "update_title": "SnapEnhance Opdatering",
+                "update_title": "SE Extended Opdatering",
                 "update_content": "Version {version} er tilgængelig!",
                 "update_button": "Hent",
-                "version_title": "I{versionName} · Forked af Jacob",
+                "version_title": "I{versionName} · Forked af bocajthomas",
                 "debug_build_summary_title": "Du kører en debug-build af SE Extended",
                 "debug_build_summary_content": "Version {versionName} ({versionCode})",
                 "debug_build_summary_date": "Byggedato: {date} ({days} dage siden)",
@@ -919,7 +919,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Komponistlogfiler",
-                                        "description": "Omdirigerer konsollogfiler fra Composer til SnapEnhance"
+                                        "description": "Omdirigerer konsollogfiler fra Composer til SE Extended"
                                     },
                                     "bypass_camera_roll_limit": {
                                         "name": "Undgå grænsen for kamerarulle",

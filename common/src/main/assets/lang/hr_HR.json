@@ -3,11 +3,11 @@
         "dialogs": {
             "select_save_folder_button": "Odaberite mapu",
             "select_language": "Odaberite jezik",
-            "save_folder": "SnapEnhance-u je potrebno omogućiti pristup datotekama kako bi mogao skidati i spremati medije sa Snapchat-a.\nMolimo odaberite lokaciju gdje želite da se mediji spremaju."
+            "save_folder": "SE Extended-u je potrebno omogućiti pristup datotekama kako bi mogao skidati i spremati medije sa Snapchat-a.\nMolimo odaberite lokaciju gdje želite da se mediji spremaju."
         },
         "mappings": {
             "dialog": "Generiranje mapiranja, ovo može potrajati..",
-            "generate_failure_no_snapchat": "SnapEnhance nije uspio detektirati Snapchat, probajte ga ponovo instalirati.",
+            "generate_failure_no_snapchat": "SE Extended nije uspio detektirati Snapchat, probajte ga ponovo instalirati.",
             "generate_failure": "Greška prilikom generiranja \"mappings\"-a, molimo pokušajte ponovo."
         },
         "permissions": {
@@ -46,7 +46,7 @@
         },
         "sections": {
             "home": {
-                "update_title": "SnapEnhance nadogradnja",
+                "update_title": "SE Extended nadogradnja",
                 "update_content": "Verzija {version} je dostupna!",
                 "update_button": "Preuzimanje",
                 "debug_build_summary_content": "",

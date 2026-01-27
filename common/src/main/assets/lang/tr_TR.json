@@ -2,12 +2,12 @@
     "setup": {
         "dialogs": {
             "select_language": "Dil Seçin",
-            "save_folder": "SnapEnhance, Snapchat'ten Medya indirmek ve Kaydetmek için Depolama izinleri gerektirir.\nLütfen medyanın indirileceği konumu seçin.",
+            "save_folder": "SE Extended, Snapchat'ten Medya indirmek ve Kaydetmek için Depolama izinleri gerektirir.\nLütfen medyanın indirileceği konumu seçin.",
             "select_save_folder_button": "Klasör Seç"
         },
         "mappings": {
             "dialog": "Eşlemeler oluşturuluyor, bu biraz zaman alabilir ...",
-            "generate_failure_no_snapchat": "SnapEnhance Snapchat'i algılayamadı, lütfen Snapchat'i yeniden yüklemeyi deneyin.",
+            "generate_failure_no_snapchat": "SE Extended Snapchat'i algılayamadı, lütfen Snapchat'i yeniden yüklemeyi deneyin.",
             "generate_failure": "Eşlemeleri oluşturmaya çalışırken bir hata oluştu, lütfen tekrar deneyin."
         },
         "permissions": {
@@ -71,13 +71,13 @@
                 "failed_to_open_file": "Dosya açılamadı"
             },
             "home": {
-                "update_title": "SnapEnhance Güncellemesi",
+                "update_title": "SE Extended Güncellemesi",
                 "update_button": "İndir",
                 "update_content": "Sürüm {version} kullanılabilir!",
                 "debug_build_summary_content": "Sürüm {versionName} ({versionCode})",
                 "quick_actions_title": "Hızlı Eylemler",
                 "version_title": "rhunk tarafından - v{versionName}",
-                "debug_build_summary_title": "SnapEnhance'in bir hata ayıklama versiyonunu çalıştırıyorsunuz",
+                "debug_build_summary_title": "SE Extended'in bir hata ayıklama versiyonunu çalıştırıyorsunuz",
                 "debug_build_summary_date": "Oluşturma tarihi: {date} ({days} gün önce)"
             },
             "home_logs": {
@@ -195,7 +195,7 @@
                 "category_friends": "Arkadaşlar"
             },
             "scripting_warning": {
-                "content": "SnapEnhance, cihazınızda kullanıcı tanımlı kodun yürütülmesine izin veren bir komut dosyası aracı içerir. Çok dikkatli olun ve modülleri yalnızca bilinen, güvenilir kaynaklardan yükleyin. Yetkisiz veya doğrulanmamış modüller sisteminiz için güvenlik riskleri oluşturabilir.",
+                "content": "SE Extended, cihazınızda kullanıcı tanımlı kodun yürütülmesine izin veren bir komut dosyası aracı içerir. Çok dikkatli olun ve modülleri yalnızca bilinen, güvenilir kaynaklardan yükleyin. Yetkisiz veya doğrulanmamış modüller sisteminiz için güvenlik riskleri oluşturabilir.",
                 "title": "Uyarı"
             },
             "reset_config": {
@@ -923,7 +923,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Composer Günlükleri",
-                                        "description": "Composer'ın konsol günlüklerini SnapEnhance'a yönlendirir"
+                                        "description": "Composer'ın konsol günlüklerini SE Extended'a yönlendirir"
                                     },
                                     "show_first_created_username": {
                                         "name": "İlk Oluşturulan Kullanıcı Adını Göster",
@@ -1089,7 +1089,7 @@
             },
             "scripting": {
                 "name": "Komut Dosyaları",
-                "description": "SnapEnhance'i genişletmek için özel komut dosyaları çalıştırın",
+                "description": "SE Extended'i genişletmek için özel komut dosyaları çalıştırın",
                 "properties": {
                     "developer_mode": {
                         "name": "Geliştirici Modu",
@@ -1233,7 +1233,7 @@
             },
             "auto_reload": {
                 "snapchat_only": "Sadece Snapchat",
-                "all": "Tümü (Snapchat + SnapEnhance)"
+                "all": "Tümü (Snapchat + SE Extended)"
             },
             "strip_media_metadata": {
                 "remove_audio_note_duration": "Ses Notası Süresini Kaldır",
@@ -1624,7 +1624,7 @@
         },
         "change_language": {
             "name": "Dili Değiştir",
-            "description": "SnapEnhance'in dilini değiştir"
+            "description": "SE Extended'in dilini değiştir"
         },
         "friend_tracker": {
             "name": "Arkadaş Takibi",

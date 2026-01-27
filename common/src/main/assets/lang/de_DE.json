@@ -73,7 +73,7 @@
                 "merge_button": "Zusammenführen"
             },
             "home": {
-                "update_title": "SnapEnhance Update",
+                "update_title": "SE Extended Update",
                 "update_content": "Version {version} ist verfügbar!",
                 "update_button": "Herunterladen",
                 "version_title": "V{versionName} · Ein Fork von bocajthomas",
@@ -932,7 +932,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Composer-Protokolle",
-                                        "description": "Leitet Konsolenprotokolle von Composer zu SnapEnhance um"
+                                        "description": "Leitet Konsolenprotokolle von Composer zu SE Extended um"
                                     },
                                     "show_first_created_username": {
                                         "name": "Zeige erstgewählten Benutzernamen",
@@ -1098,7 +1098,7 @@
             },
             "scripting": {
                 "name": "Scripting",
-                "description": "Benutzerdefinierte Skripte ausführen, um SnapEnhance zu erweitern",
+                "description": "Benutzerdefinierte Skripte ausführen, um SE Extended zu erweitern",
                 "properties": {
                     "developer_mode": {
                         "name": "Entwickler:innenmodus",
@@ -1242,7 +1242,7 @@
             },
             "auto_reload": {
                 "snapchat_only": "Nur Snapchat",
-                "all": "Alles (Snapchat + SnapEnhance)"
+                "all": "Alles (Snapchat + SE Extended)"
             },
             "strip_media_metadata": {
                 "remove_audio_note_duration": "Dauer der Sprachnachricht entfernen",
@@ -1626,7 +1626,7 @@
         },
         "change_language": {
             "name": "Sprache ändern",
-            "description": "Ändere die Sprache von SnapEnhance"
+            "description": "Ändere die Sprache von SE Extended"
         },
         "file_imports": {
             "description": "Importieren Sie Dateien zur Verwendung in Snapchat",

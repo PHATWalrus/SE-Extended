@@ -3,11 +3,11 @@
         "dialogs": {
             "select_save_folder_button": "Välj Mapp",
             "select_language": "Välj språk",
-            "save_folder": "SnapEnhance kräver lagringsbehörigheter för att ladda ner och spara media från Snapchat.\nVälj var media ska laddas ner till."
+            "save_folder": "SE Extended kräver lagringsbehörigheter för att ladda ner och spara media från Snapchat.\nVälj var media ska laddas ner till."
         },
         "mappings": {
-            "dialog": "För att dynamiskt stödja ett brett utbud av Snapchat Versioner, mappningar är nödvändiga för att SnapEnhance ska fungera korrekt, detta bör inte ta mer än 5 sekunder.",
-            "generate_failure_no_snapchat": "SnapEnhance kunde inte upptäcka Snapchat, försök att installera om Snapchat.",
+            "dialog": "För att dynamiskt stödja ett brett utbud av Snapchat Versioner, mappningar är nödvändiga för att SE Extended ska fungera korrekt, detta bör inte ta mer än 5 sekunder.",
+            "generate_failure_no_snapchat": "SE Extended kunde inte upptäcka Snapchat, försök att installera om Snapchat.",
             "generate_failure": "Ett fel inträffade vid försök att generera mappningar, försök igen."
         },
         "permissions": {
@@ -101,7 +101,7 @@
                 "download_attachment_failed_toast": "Det gick inte att ladda ned bilagan"
             },
             "home": {
-                "update_title": "SnapEnhance Updatering",
+                "update_title": "SE Extended Updatering",
                 "update_content": "Version {version} är tillgänglig!",
                 "update_button": "Ladda ner",
                 "version_title": "",
@@ -196,7 +196,7 @@
             },
             "scripting_warning": {
                 "title": "Varning",
-                "content": "SnapEnhance inkluderar ett skriptverktyg som tillåter exekvering av användardefinierad kod på din enhet. Var extremt försiktig och installera endast moduler från kända, pålitliga källor. Obehöriga eller overifierade moduler kan utgöra säkerhetsrisker för ditt system."
+                "content": "SE Extended inkluderar ett skriptverktyg som tillåter exekvering av användardefinierad kod på din enhet. Var extremt försiktig och installera endast moduler från kända, pålitliga källor. Obehöriga eller overifierade moduler kan utgöra säkerhetsrisker för ditt system."
             },
             "reset_config": {
                 "title": "Återställ konfiguration",
@@ -305,7 +305,7 @@
         },
         "change_language": {
             "name": "Bytt språk",
-            "description": "Bytt språk av SnapEnhance"
+            "description": "Bytt språk av SE Extended"
         },
         "security_features": {
             "name": "",
@@ -963,7 +963,7 @@
                     }
                 },
                 "name": "Skript",
-                "description": "Kör anpassade skript för att utöka SnapEnhance"
+                "description": "Kör anpassade skript för att utöka SE Extended"
             },
             "experimental": {
                 "properties": {

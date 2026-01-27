@@ -2,12 +2,12 @@
     "setup": {
         "dialogs": {
             "select_language": "Sprach uswähle",
-            "save_folder": "SnapEnhance benötigt Speicherberächtigunge zum Abelade und Speicher vo Medie vo Snapchat.\nBitte wähled Sie de Ort us wo d Medie sölled abeglade werde.",
+            "save_folder": "SE Extended benötigt Speicherberächtigunge zum Abelade und Speicher vo Medie vo Snapchat.\nBitte wähled Sie de Ort us wo d Medie sölled abeglade werde.",
             "select_save_folder_button": "Ordner wählen"
         },
         "mappings": {
             "dialog": "Mappings werden generiert, dies könnte ein bisschen dauern ...",
-            "generate_failure_no_snapchat": "SnapEnhance konnte Snapchat nicht finden, bitte versuchen Sie Snapchat neu zu installieren.",
+            "generate_failure_no_snapchat": "SE Extended konnte Snapchat nicht finden, bitte versuchen Sie Snapchat neu zu installieren.",
             "generate_failure": "Beim Generieren der Zuordnungen ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
         },
         "permissions": {
@@ -41,7 +41,7 @@
                 "notes_placeholder": ""
             },
             "home": {
-                "update_title": "SnapEnhance Update",
+                "update_title": "SE Extended Update",
                 "update_content": "Version {version} ist verfügbar!",
                 "update_button": "Herunterladen",
                 "debug_build_summary_date": "",
@@ -180,7 +180,7 @@
             },
             "scripting_warning": {
                 "title": "Warnung",
-                "content": "SnapEnhance enthält ein Skripting-Tool, das die Ausführung von benutzerdefinierten Code auf Ihrem Gerät ermöglicht. Seien Sie äußerst vorsichtig und installieren Sie nur Module aus bekannten, zuverlässigen Quellen. Unautorisierte oder ungeprüfte Module können Sicherheitsrisiken für Ihr System darstellen."
+                "content": "SE Extended enthält ein Skripting-Tool, das die Ausführung von benutzerdefinierten Code auf Ihrem Gerät ermöglicht. Seien Sie äußerst vorsichtig und installieren Sie nur Module aus bekannten, zuverlässigen Quellen. Unautorisierte oder ungeprüfte Module können Sicherheitsrisiken für Ihr System darstellen."
             },
             "messaging_action": {
                 "title": "Wählen Sie die zu verarbeitenden Inhaltstypen um fortzufahren",
@@ -247,7 +247,7 @@
                     }
                 },
                 "name": "Scripting",
-                "description": "Benutzerdefinierte Skripte ausführen, um SnapEnhance zu erweitern"
+                "description": "Benutzerdefinierte Skripte ausführen, um SE Extended zu erweitern"
             },
             "downloader": {
                 "name": "Downloader",
@@ -889,7 +889,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Composer-Protokolle",
-                                        "description": "Leitet Konsolenprotokolle von Composer zu SnapEnhance um"
+                                        "description": "Leitet Konsolenprotokolle von Composer zu SE Extended um"
                                     }
                                 }
                             },
@@ -1073,7 +1073,7 @@
         "options": {
             "auto_reload": {
                 "snapchat_only": "Nur Snapchat",
-                "all": "Alles (Snapchat + SnapEnhance)"
+                "all": "Alles (Snapchat + SE Extended)"
             },
             "auto_purge": {
                 "12_hours": "12 Stunden",
@@ -1563,7 +1563,7 @@
         },
         "change_language": {
             "name": "Sprache ändern",
-            "description": "Ändere die Sprache von SnapEnhance"
+            "description": "Ändere die Sprache von SE Extended"
         },
         "theming": {
             "name": "",

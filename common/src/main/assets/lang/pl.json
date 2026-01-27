@@ -197,7 +197,7 @@
             },
             "scripting_warning": {
                 "title": "Ostrzeżenie",
-                "content": "SnapEnhance zawiera narzędzie skryptowe, umożliwiające wykonanie zdefiniowanego przez użytkownika kodu na Twoim urządzeniu. Używaj z szczególną ostrożnością i instaluj moduły z znanego, wiarygodnego źródła. Nieautoryzowane lub niezweryfikowane moduły mogą stwarzać zagrożenie dla twojego systemu."
+                "content": "SE Extended zawiera narzędzie skryptowe, umożliwiające wykonanie zdefiniowanego przez użytkownika kodu na Twoim urządzeniu. Używaj z szczególną ostrożnością i instaluj moduły z znanego, wiarygodnego źródła. Nieautoryzowane lub niezweryfikowane moduły mogą stwarzać zagrożenie dla twojego systemu."
             },
             "reset_config": {
                 "success_toast": "Konfiguracja została pomyślnie zresetowana",
@@ -404,7 +404,7 @@
         },
         "change_language": {
             "name": "Zmień język",
-            "description": "Zmień język SnapEnhance'a"
+            "description": "Zmień język SE Extended'a"
         },
         "friend_tracker": {
             "name": "Śledzenie znajomych",

@@ -2,8 +2,8 @@
     "setup": {
         "mappings": {
             "generate_failure": "Pri ustvarjanju preslikav je prišlo do napake, prosimo poskusite znova.",
-            "generate_failure_no_snapchat": "SnapEnhance ne zaznava Snapchata. Poizkusite ga znova naložiti.",
-            "dialog": "Da bi dinamično podpiral širok razpon Snapchat verzij, so preslikave potrebne za pravilno delovanje Snapenhance-a; to ne bi smelo vzeti več kot 5 sekund."
+            "generate_failure_no_snapchat": "SE Extended ne zaznava Snapchata. Poizkusite ga znova naložiti.",
+            "dialog": "Da bi dinamično podpiral širok razpon Snapchat verzij, so preslikave potrebne za pravilno delovanje SE Extended-a; to ne bi smelo vzeti več kot 5 sekund."
         },
         "permissions": {
             "dialog": "Za nadaljevanje morate izpolnjevati naslednje zahteve:",
@@ -15,7 +15,7 @@
         "dialogs": {
             "select_language": "Izberi jezik",
             "select_save_folder_button": "Izberite mapo",
-            "save_folder": "SnapEnhance potrebuje dovoljenje za Dostop do datotek, da lahko nalaga in shranjuje datoteke iz Snapchata.\nIzberite mapo, v katero se bodo nalagale datoteke."
+            "save_folder": "SE Extended potrebuje dovoljenje za Dostop do datotek, da lahko nalaga in shranjuje datoteke iz Snapchata.\nIzberite mapo, v katero se bodo nalagale datoteke."
         }
     },
     "manager": {
@@ -64,10 +64,10 @@
                 "empty_hint": ""
             },
             "home": {
-                "update_title": "SnapEnhance nadgradnja",
+                "update_title": "SE Extended nadgradnja",
                 "update_content": "Verzija {version} je na voljo!",
                 "update_button": "Prenos",
-                "debug_build_summary_title": "Uporabljate razhroščevalno različico SnapEnhancea",
+                "debug_build_summary_title": "Uporabljate razhroščevalno različico SE Extendeda",
                 "debug_build_summary_date": "Dan izgradnje: {date} ({days} days ago)",
                 "quick_actions_title": "Hitra dejanja",
                 "version_title": "v{versionName} · naredil rhunk",

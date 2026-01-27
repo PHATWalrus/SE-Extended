@@ -2,13 +2,13 @@
     "setup": {
         "mappings": {
             "dialog": "Generando mapeos, esto puede tardar un rato ...",
-            "generate_failure_no_snapchat": "SnapEnhance no pudo detectar Snapchat, por favor intenta reinstalar Snapchat.",
+            "generate_failure_no_snapchat": "SE Extended no pudo detectar Snapchat, por favor intenta reinstalar Snapchat.",
             "generate_failure": "Ocurrió un error al intentar generar mapeos, por favor intenta de nuevo."
         },
         "dialogs": {
             "select_save_folder_button": "Elige la carpeta",
             "select_language": "Elige un idioma",
-            "save_folder": "Snapenhance necesita permisos de almacenamiento para descargar y guardar medios desde Snapchat.\nPor favor elige la ubicación dónde se deben descargar los medios."
+            "save_folder": "SE Extended necesita permisos de almacenamiento para descargar y guardar medios desde Snapchat.\nPor favor elige la ubicación dónde se deben descargar los medios."
         },
         "permissions": {
             "dialog": "Para continuar hay que cumplir los siguientes requisitos:",
@@ -48,7 +48,7 @@
                 "debug_build_summary_date": "Fecha de desarrollo: {date} (hace{days} día(s))",
                 "quick_actions_title": "Acciones rápidas",
                 "version_title": "v{versionName} · bifurcación de bocajthomas",
-                "debug_build_summary_title": "Estás ejecutando una versión de depuración de SnapEnhance",
+                "debug_build_summary_title": "Estás ejecutando una versión de depuración de SE Extended",
                 "debug_build_summary_content": "Versión {versionName} ({versionCode})"
             },
             "home_logs": {
@@ -198,7 +198,7 @@
             },
             "scripting_warning": {
                 "title": "Aviso",
-                "content": "SnapEnhance incluye una herramienta de escribir comandos, que permite la ejecución de código definido por el usuario. Exige precaución extrema y asegúrese de sólo instalar módulos de fuentes conocidos y confiables. Módulos no verificados o autorizados pueden arriesgar la seguridad de tu sistema."
+                "content": "SE Extended incluye una herramienta de escribir comandos, que permite la ejecución de código definido por el usuario. Exige precaución extrema y asegúrese de sólo instalar módulos de fuentes conocidos y confiables. Módulos no verificados o autorizados pueden arriesgar la seguridad de tu sistema."
             },
             "reset_config": {
                 "content": "¿Segura/o que quieres restablecer la configuración?",
@@ -287,7 +287,7 @@
         },
         "change_language": {
             "name": "Cambiar idioma",
-            "description": "Cambiar el idioma de SnapEnhance"
+            "description": "Cambiar el idioma de SE Extended"
         },
         "manage_friend_list": {
             "name": "Administrar lista de amigxs",
@@ -976,7 +976,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Registro del compositor",
-                                        "description": "Redirige los registros de la consola del compositor a SnapEnhance"
+                                        "description": "Redirige los registros de la consola del compositor a SE Extended"
                                     }
                                 },
                                 "name": "Ganchas de compositor",
@@ -1143,7 +1143,7 @@
                 "name": "Experimental"
             },
             "scripting": {
-                "description": "Ejecuta código personalizado para mejorar SnapEnhance",
+                "description": "Ejecuta código personalizado para mejorar SE Extended",
                 "properties": {
                     "module_folder": {
                         "description": "La carpeta dónde está ubicado el código",
@@ -1339,7 +1339,7 @@
             },
             "auto_reload": {
                 "snapchat_only": "Solo Snapchat",
-                "all": "Todo (Snapchat + SnapEnhance)"
+                "all": "Todo (Snapchat + SE Extended)"
             },
             "auto_purge": {
                 "never": "Nunca",

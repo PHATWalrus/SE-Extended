@@ -1,14 +1,14 @@
 {
     "setup": {
         "mappings": {
-            "generate_failure_no_snapchat": "SnapEnhance nespēja atrast Snapchat, lūdzu, mēģiniet atkārtoti instalēt Snapchat.",
-            "dialog": "Lai dinamiski atbalstītu plašu Snapchat versiju klāstu, lai SnapEnhance darbotos pareizi, ir nepieciešamas kartēšanas, un tas neaizņems vairāk par 5 sekundēm.",
+            "generate_failure_no_snapchat": "SE Extended nespēja atrast Snapchat, lūdzu, mēģiniet atkārtoti instalēt Snapchat.",
+            "dialog": "Lai dinamiski atbalstītu plašu Snapchat versiju klāstu, lai SE Extended darbotos pareizi, ir nepieciešamas kartēšanas, un tas neaizņems vairāk par 5 sekundēm.",
             "generate_failure": "Mēģinot ģenerēt kartēšanu, radās kļūda, lūdzu, mēģiniet vēlreiz."
         },
         "dialogs": {
             "select_save_folder_button": "Atlasiet mapi",
             "select_language": "Atlasiet valodu",
-            "save_folder": "SnapEnhance ir nepieciešamas glabāšanas atļaujas, lai lejupielādētu un saglabātu multivides no Snapchat.\nLūdzu, izvēlieties atrašanās vietu, kur multivides līdzekļi jālejupielādē."
+            "save_folder": "SE Extended ir nepieciešamas glabāšanas atļaujas, lai lejupielādētu un saglabātu multivides no Snapchat.\nLūdzu, izvēlieties atrašanās vietu, kur multivides līdzekļi jālejupielādē."
         },
         "permissions": {
             "dialog": "Lai turpinātu, jums ir jāatbilst šādām prasībām:",
@@ -42,7 +42,7 @@
         },
         "sections": {
             "home": {
-                "update_title": "SnapEnhance atjauninājums",
+                "update_title": "SE Extended atjauninājums",
                 "update_content": "Versija {version} ir pieejama!",
                 "update_button": "Lejuplādēt",
                 "debug_build_summary_content": "",

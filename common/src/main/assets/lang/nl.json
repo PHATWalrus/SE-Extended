@@ -2,12 +2,12 @@
     "setup": {
         "dialogs": {
             "select_language": "Selecteer Taal",
-            "save_folder": "SnapEnhance vereist opslagrechten om media van Snapchat te downloaden en op te slaan.\nKies de downloadlocatie.",
+            "save_folder": "SE Extended vereist opslagrechten om media van Snapchat te downloaden en op te slaan.\nKies de downloadlocatie.",
             "select_save_folder_button": "Selecteer Map"
         },
         "mappings": {
             "dialog": "Mappings genereren, dit kan een tijdje duren ...",
-            "generate_failure_no_snapchat": "SnapEnhance kon Snapchat niet detecteren, probeer alstublieft Snapchat opnieuw te installeren.",
+            "generate_failure_no_snapchat": "SE Extended kon Snapchat niet detecteren, probeer alstublieft Snapchat opnieuw te installeren.",
             "generate_failure": "Er is een fout opgetreden tijdens het genereren van mappings, probeer het opnieuw."
         },
         "permissions": {
@@ -71,7 +71,7 @@
                 "failed_to_open_file": "Bestand openen mislukt"
             },
             "home": {
-                "update_title": "SnapEnhance Update",
+                "update_title": "SE Extended Update",
                 "update_content": "Versie {version} is beschikbaar!",
                 "update_button": "Download",
                 "version_title": "V{versionName} · Geforked door bocajthomas",
@@ -196,7 +196,7 @@
             },
             "scripting_warning": {
                 "title": "Waarschuwing",
-                "content": "SnapEnhance bevat een scripting-tool, waarmee door de gebruiker gedefinieerde code op uw apparaat kan worden uitgevoerd. Wees uiterst voorzichtig en installeer alleen modules van bekende, betrouwbare bronnen. Niet-geautoriseerde of niet-geverifieerde modules kunnen beveiligingsrisico's voor uw systeem opleveren."
+                "content": "SE Extended bevat een scripting-tool, waarmee door de gebruiker gedefinieerde code op uw apparaat kan worden uitgevoerd. Wees uiterst voorzichtig en installeer alleen modules van bekende, betrouwbare bronnen. Niet-geautoriseerde of niet-geverifieerde modules kunnen beveiligingsrisico's voor uw systeem opleveren."
             },
             "reset_config": {
                 "title": "Configuratie resetten",
@@ -1412,7 +1412,7 @@
             "name": "Herinneringen Exporteren"
         },
         "change_language": {
-            "description": "Wijzig de taal van SnapEnhance",
+            "description": "Wijzig de taal van SE Extended",
             "name": "Taal Wijzigen"
         },
         "regen_mappings": {

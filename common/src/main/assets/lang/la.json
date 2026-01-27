@@ -23,7 +23,7 @@
         },
         "sections": {
             "home": {
-                "update_title": "SnapEnhance Update",
+                "update_title": "SE Extended Update",
                 "update_content": "Versione {version} praesto est!",
                 "update_button": "Download",
                 "debug_build_summary_title": "",
@@ -169,7 +169,7 @@
         },
         "dialogs": {
             "scripting_warning": {
-                "content": "SnapEnhance instrumentum scriptionis includit, supplicium usoris definiti codicis in fabrica permittens. Summa cautione utere et tantum modulos ex notis, certis auctoribus institue. Moduli non legitimi vel non probati possunt pericula securitatis in ratiocinatione tua ponere.",
+                "content": "SE Extended instrumentum scriptionis includit, supplicium usoris definiti codicis in fabrica permittens. Summa cautione utere et tantum modulos ex notis, certis auctoribus institue. Moduli non legitimi vel non probati possunt pericula securitatis in ratiocinatione tua ponere.",
                 "title": ""
             },
             "add_friend": {
@@ -202,7 +202,7 @@
         "dialogs": {
             "select_language": "Lingua cupere",
             "select_save_folder_button": "Ordnerus cupere",
-            "save_folder": "SnapEnhance requirit PRAECLUSIO permissiones ut download et salvum Media ex Snapchat.\nElige locum ubi instrumentorum communicationis socialis debet esse recepta."
+            "save_folder": "SE Extended requirit PRAECLUSIO permissiones ut download et salvum Media ex Snapchat.\nElige locum ubi instrumentorum communicationis socialis debet esse recepta."
         },
         "permissions": {
             "notification_access": "Nervus alloware",
@@ -213,7 +213,7 @@
         },
         "mappings": {
             "dialog": "Generating Mappings, hoc modicum tempus capere potest.",
-            "generate_failure_no_snapchat": "SnapEnhance Snapchat deprehendere potuit, Aliquam Snapchat reinstalling.",
+            "generate_failure_no_snapchat": "SE Extended Snapchat deprehendere potuit, Aliquam Snapchat reinstalling.",
             "generate_failure": "Error occurrit dum mappings generare conatur, iterum conare."
         }
     },

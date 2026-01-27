@@ -99,8 +99,8 @@
     },
     "setup": {
         "mappings": {
-            "generate_failure_no_snapchat": "SnapEnhance nu a putut detecta Snapchat, încercați să reinstalați Snapchat.",
-            "dialog": "Pentru a suporta dinamic o mai multe versiuni de Snapchat, mapările sunt necesare pentru SnapEnhance pentru a funcționa corect, nu ar trebui să dureze mai mult de 5 secunde.",
+            "generate_failure_no_snapchat": "SE Extended nu a putut detecta Snapchat, încercați să reinstalați Snapchat.",
+            "dialog": "Pentru a suporta dinamic o mai multe versiuni de Snapchat, mapările sunt necesare pentru SE Extended pentru a funcționa corect, nu ar trebui să dureze mai mult de 5 secunde.",
             "generate_failure": "A apărut o eroare în timpul generării mapărilor, te rog încearcă din nou."
         },
         "permissions": {
@@ -112,7 +112,7 @@
         },
         "dialogs": {
             "select_language": "Selectează Limba",
-            "save_folder": "SnapEnhance necesită acces la Stocare pentru a descărca si salva media din Snapchat.\nTe rog selectează locația unde ar trebui să fie descărcate.",
+            "save_folder": "SE Extended necesită acces la Stocare pentru a descărca si salva media din Snapchat.\nTe rog selectează locația unde ar trebui să fie descărcate.",
             "select_save_folder_button": "Alege Dosarul"
         }
     },
@@ -192,7 +192,7 @@
             "home": {
                 "update_content": "Versiunea {version} este disponibilă!",
                 "update_button": "Descarcă",
-                "update_title": "Actualizare SnapEnhance Extended",
+                "update_title": "Actualizare SE Extended Extended",
                 "debug_build_summary_title": "Rulezi o versiune de depanare a SE Extended",
                 "debug_build_summary_content": "Versiune {versionName} ({versionCode})",
                 "version_title": "V{versionName} · Bifurcat de bocajthomas",
@@ -287,7 +287,7 @@
         "dialogs": {
             "scripting_warning": {
                 "title": "Atenție",
-                "content": "SnapEnhance include un instrument de scriere, care permite executarea codului definit de utilizator pe dispozitivul dumneavoastră. Fiți extrem de precauți și instalați numai module din surse cunoscute și de încredere. Modulele neautorizate sau neverificate pot prezenta riscuri de securitate pentru sistemul dumneavoastră."
+                "content": "SE Extended include un instrument de scriere, care permite executarea codului definit de utilizator pe dispozitivul dumneavoastră. Fiți extrem de precauți și instalați numai module din surse cunoscute și de încredere. Modulele neautorizate sau neverificate pot prezenta riscuri de securitate pentru sistemul dumneavoastră."
             },
             "add_friend": {
                 "title": "Adaugă un Prieten sau un Grup",
@@ -1049,7 +1049,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Jurnalele Composer",
-                                        "description": "Redirecționează jurnalele consolei Composer către SnapEnhance"
+                                        "description": "Redirecționează jurnalele consolei Composer către SE Extended"
                                     },
                                     "bypass_camera_roll_limit": {
                                         "description": "Crește cantitatea maximă de media pe care o poți trimite din Ruloul Camerei",
@@ -1208,7 +1208,7 @@
                         "description": ""
                     }
                 },
-                "description": "Rulați scripturi personalizate pentru a extinde SnapEnhance"
+                "description": "Rulați scripturi personalizate pentru a extinde SE Extended"
             },
             "friend_tracker": {
                 "name": "",
@@ -1270,7 +1270,7 @@
             },
             "auto_reload": {
                 "snapchat_only": "Numai Snapchat",
-                "all": "Toate (Snapchat + SnapEnhance)"
+                "all": "Toate (Snapchat + SE Extended)"
             },
             "auto_purge": {
                 "1_month": "1 Lună",
@@ -1503,7 +1503,7 @@
         },
         "change_language": {
             "name": "Schimbă limba",
-            "description": "Schimbați limba SnapEnhance"
+            "description": "Schimbați limba SE Extended"
         },
         "security_features": {
             "name": "Caracteristici de securitate",

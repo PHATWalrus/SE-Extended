@@ -196,7 +196,7 @@
             },
             "scripting_warning": {
                 "title": "Warning",
-                "content": "SnapEnhance includes a scripting tool, allowing the execution of user-defined code on your device. Use extreme caution and only install modules from known, reliable sources. Unauthorised or unverified modules may pose security risks to your system."
+                "content": "SE Extended includes a scripting tool, allowing the execution of user-defined code on your device. Use extreme caution and only install modules from known, reliable sources. Unauthorised or unverified modules may pose security risks to your system."
             },
             "reset_config": {
                 "title": "Reset config",
@@ -309,7 +309,7 @@
         },
         "change_language": {
             "name": "Change Language",
-            "description": "Change the Language of SnapEnhance"
+            "description": "Change the Language of SE Extended"
         },
         "logger_history": {
             "name": "Logger History",
@@ -977,7 +977,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Composer Logs",
-                                        "description": "Redirects console logs of Composer to SnapEnhance"
+                                        "description": "Redirects console logs of Composer to SE Extended"
                                     },
                                     "show_first_created_username": {
                                         "description": "Shows the first created username next to the current username in the profile page",
@@ -1326,7 +1326,7 @@
             },
             "auto_reload": {
                 "snapchat_only": "Snapchat Only",
-                "all": "All (Snapchat + SnapEnhance)"
+                "all": "All (Snapchat + SE Extended)"
             },
             "edit_text_override": {
                 "multi_line_chat_input": "Multi Line Chat Input",

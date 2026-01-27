@@ -75,9 +75,9 @@
             "home": {
                 "update_content": "La version {version} est disponible !",
                 "update_button": "Télécharger",
-                "update_title": "Mise à jour SnapEnhance",
+                "update_title": "Mise à jour SE Extended",
                 "version_title": "v{versionName} · par rhunk",
-                "debug_build_summary_title": "Vous utilisez une version de debug de SnapEnhance",
+                "debug_build_summary_title": "Vous utilisez une version de debug de SE Extended",
                 "debug_build_summary_content": "Version {versionName} ({versionCode})",
                 "debug_build_summary_date": "Date de création: {date} (Il y a {days} jours)",
                 "quick_actions_title": "Actions rapides"
@@ -200,7 +200,7 @@
                 "participants_text": "{count} participants"
             },
             "scripting_warning": {
-                "content": "SnapEnhance inclut un outil de développement de scripts, permettant l'exécution d'un code défini par l'utilisateur sur votre appareil. Soyez extrêmement prudent et n'installez que des modules provenant de sources connues et fiables. Les modules non autorisés ou non vérifiés peuvent présenter des risques pour la sécurité de votre système.",
+                "content": "SE Extended inclut un outil de développement de scripts, permettant l'exécution d'un code défini par l'utilisateur sur votre appareil. Soyez extrêmement prudent et n'installez que des modules provenant de sources connues et fiables. Les modules non autorisés ou non vérifiés peuvent présenter des risques pour la sécurité de votre système.",
                 "title": "Attention"
             },
             "messaging_action": {
@@ -932,7 +932,7 @@
                                     },
                                     "composer_logs": {
                                         "name": "Journaux de Composer",
-                                        "description": "Redirige les journaux de console de Composer vers SnapEnhance"
+                                        "description": "Redirige les journaux de console de Composer vers SE Extended"
                                     },
                                     "show_first_created_username": {
                                         "description": "Affiche le premier nom d'utilisateur créé à côté du nom d'utilisateur actuel dans la page de profil",
@@ -1097,7 +1097,7 @@
             },
             "scripting": {
                 "name": "Scripting",
-                "description": "Exécuter des scripts personnalisés pour étendre SnapEnhance",
+                "description": "Exécuter des scripts personnalisés pour étendre SE Extended",
                 "properties": {
                     "developer_mode": {
                         "name": "Mode Développeur",
@@ -1207,7 +1207,7 @@
             },
             "auto_reload": {
                 "snapchat_only": "Snapchat uniquement",
-                "all": "Tous (Snapchat + SnapEnhance)"
+                "all": "Tous (Snapchat + SE Extended)"
             },
             "strip_media_metadata": {
                 "remove_audio_note_duration": "Supprimer la durée des vocaux",
@@ -1621,7 +1621,7 @@
         },
         "change_language": {
             "name": "Changer la langue",
-            "description": "Changer la langue de SnapEnhance"
+            "description": "Changer la langue de SE Extended"
         },
         "regen_mappings": {
             "name": "Régénérer les mappages",

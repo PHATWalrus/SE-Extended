@@ -206,7 +206,7 @@
             },
             "scripting_warning": {
                 "title": "Varoitus",
-                "content": "SnapEnhance sisältää skriptityökalun, joka mahdollistaa käyttäjän määrittämän koodin suorittamisen. Ole erittäin varovainen ja asenna moduuleja vain tunnetuista ja luotettavista lähteistä. Luottamattomat moduulit voivat aiheuttaa tietoturvariskejä järjestelmällesi."
+                "content": "SE Extended sisältää skriptityökalun, joka mahdollistaa käyttäjän määrittämän koodin suorittamisen. Ole erittäin varovainen ja asenna moduuleja vain tunnetuista ja luotettavista lähteistä. Luottamattomat moduulit voivat aiheuttaa tietoturvariskejä järjestelmällesi."
             },
             "export_config": {
                 "title": "Viedäänkö arkaluonteisia tietoja?",
@@ -1102,7 +1102,7 @@
             },
             "scripting": {
                 "name": "Komentojono",
-                "description": "Suorita mukautettuja komentosarjoja laajentaaksesi SnapEnhancea",
+                "description": "Suorita mukautettuja komentosarjoja laajentaaksesi SE Extendeda",
                 "properties": {
                     "developer_mode": {
                         "name": "Kehittäjätila",

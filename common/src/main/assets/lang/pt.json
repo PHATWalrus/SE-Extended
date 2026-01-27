@@ -68,11 +68,11 @@
         "dialogs": {
             "select_save_folder_button": "Selecione a pasta",
             "select_language": "Selecione o idioma",
-            "save_folder": "SnapEnhance requer permissões de armazenamento para baixar e salvar mídia do Snapchat.\nEscolha o local para onde a mídia deve ser baixada."
+            "save_folder": "SE Extended requer permissões de armazenamento para baixar e salvar mídia do Snapchat.\nEscolha o local para onde a mídia deve ser baixada."
         },
         "mappings": {
-            "dialog": "Para suportar dinamicamente uma ampla variedade de versões do Snapchat, os mapeamentos são necessários para que o SnapEnhance funcione corretamente. Isso não deve levar mais de 5 segundos.",
-            "generate_failure_no_snapchat": "O SnapEnhance não conseguiu detectar o Snapchat. Tente reinstalar o Snapchat.",
+            "dialog": "Para suportar dinamicamente uma ampla variedade de versões do Snapchat, os mapeamentos são necessários para que o SE Extended funcione corretamente. Isso não deve levar mais de 5 segundos.",
+            "generate_failure_no_snapchat": "O SE Extended não conseguiu detectar o Snapchat. Tente reinstalar o Snapchat.",
             "generate_failure": "Ocorreu um erro ao tentar gerar mapeamentos, tente novamente."
         },
         "permissions": {

@@ -1815,11 +1815,11 @@
             },
             "home": {
                 "version_title": "v{versionName} · шляхом rhunk",
-                "debug_build_summary_title": "Ви використовуєте збірку для налагодження SnapEnhance",
+                "debug_build_summary_title": "Ви використовуєте збірку для налагодження SE Extended",
                 "debug_build_summary_content": "Версія {versionName} ({versionCode})",
                 "quick_actions_title": "Швидкі дії",
                 "debug_build_summary_date": "Дата складання: {date} ({days} днів тому)",
-                "update_title": "Оновлення SnapEnhance",
+                "update_title": "Оновлення SE Extended",
                 "update_content": "Доступна версія {version}!",
                 "update_button": "Завантажити"
             },
@@ -1943,7 +1943,7 @@
             },
             "scripting_warning": {
                 "title": "Увага",
-                "content": "SnapEnhance містить інструмент створення сценаріїв, що дозволяє виконувати визначений користувачем код на вашому пристрої. Будьте вкрай обережні та встановлюйте модулі лише з відомих надійних джерел. Неавторизовані або неперевірені модулі можуть становити загрозу безпеці вашої системи."
+                "content": "SE Extended містить інструмент створення сценаріїв, що дозволяє виконувати визначений користувачем код на вашому пристрої. Будьте вкрай обережні та встановлюйте модулі лише з відомих надійних джерел. Неавторизовані або неперевірені модулі можуть становити загрозу безпеці вашої системи."
             },
             "file_imports": {
                 "no_files_settings_hint": "Файли не знайдено. Переконайтеся, що ви імпортували необхідні файли в розділ «Імпорт файлів»",
@@ -2655,7 +2655,7 @@
                                 "properties": {
                                     "composer_logs": {
                                         "name": "Журнали композитора",
-                                        "description": "Переспрямовує журнали консолі Composer до SnapEnhance"
+                                        "description": "Переспрямовує журнали консолі Composer до SE Extended"
                                     },
                                     "show_first_created_username": {
                                         "description": "Показує перше створене ім’я користувача поруч із поточним іменем користувача на сторінці профілю",
@@ -2874,7 +2874,7 @@
                     }
                 },
                 "name": "Сценарії",
-                "description": "Запустіть власні сценарії, щоб розширити SnapEnhance"
+                "description": "Запустіть власні сценарії, щоб розширити SE Extended"
             },
             "friend_tracker": {
                 "properties": {
@@ -3093,7 +3093,7 @@
                 "spotlight": "Прожектор"
             },
             "auto_reload": {
-                "all": "Усі (Snapchat + SnapEnhance)",
+                "all": "Усі (Snapchat + SE Extended)",
                 "snapchat_only": "Лише Snapchat"
             },
             "simple_snapchat": {
@@ -3113,7 +3113,7 @@
         },
         "change_language": {
             "name": "Змінити мову",
-            "description": "Змініть мову SnapEnhance"
+            "description": "Змініть мову SE Extended"
         },
         "manage_friend_list": {
             "name": "Керувати списком друзів",
