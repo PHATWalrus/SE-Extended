@@ -92,10 +92,18 @@ fun AppMaterialTheme(
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
-            val window = (context as android.app.Activity).window
-            val insetsController = getInsetsController(window, view)
-            insetsController.isAppearanceLightStatusBars = !useDarkTheme
-            insetsController.isAppearanceLightNavigationBars = !useDarkTheme
+            var currentContext = context
+            while (currentContext is android.content.ContextWrapper) {
+                if (currentContext is android.app.Activity) break
+                currentContext = currentContext.baseContext
+            }
+
+            if (currentContext is android.app.Activity) {
+                val window = currentContext.window
+                val insetsController = getInsetsController(window, view)
+                insetsController.isAppearanceLightStatusBars = !useDarkTheme
+                insetsController.isAppearanceLightNavigationBars = !useDarkTheme
+            }
         }
     }
 
