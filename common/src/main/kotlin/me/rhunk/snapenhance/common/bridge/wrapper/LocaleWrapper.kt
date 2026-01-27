@@ -48,13 +48,17 @@ class LocaleWrapper(
         }
 
         fun scanObject(jsonObject: JsonObject, prefix: String = "") {
-            jsonObject.entrySet().forEach {
-                if (it.value.isJsonPrimitive) {
-                    val key = "$prefix${it.key}"
-                    translationMap[key] = it.value.asString
+            jsonObject.entrySet().forEach { entry ->
+                val key = "$prefix${entry.key}"
+                val value = entry.value
+                if (value.isJsonPrimitive) {
+                    val stringValue = value.asString
+                    if (stringValue.isNotEmpty()) {
+                        translationMap[key] = stringValue
+                    }
+                } else if (value.isJsonObject) {
+                    scanObject(value.asJsonObject, "$key.")
                 }
-                if (!it.value.isJsonObject) return@forEach
-                scanObject(it.value.asJsonObject, "$prefix${it.key}.")
             }
         }
 
@@ -81,7 +85,15 @@ class LocaleWrapper(
         load()
     }
 
-    operator fun get(key: String) = translationMap[key] ?: key.also { AbstractLogger.directDebug("Missing translation for $key") }
+    operator fun get(key: String): String {
+        val translation = translationMap[key]
+        return if (translation.isNullOrEmpty()) {
+            AbstractLogger.directDebug("Missing or empty translation for $key")
+            key
+        } else {
+            translation
+        }
+    }
     fun getOrNull(key: String) = translationMap[key]
 
     fun format(key: String, vararg args: Pair<String, String>): String {
