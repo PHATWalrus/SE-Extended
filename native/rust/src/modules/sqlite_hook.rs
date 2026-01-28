@@ -102,6 +102,7 @@ pub fn init() {
         debug!("Found sqlite3_open signature: {:#x}", signature);
         dobby_hook!(signature as *mut c_void, sqlite3_open);
     } else {
-        panic!("Failed to find sqlite3_open signature");
+        error!("Failed to find sqlite3_open signature");
+        return;
     }
 }

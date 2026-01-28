@@ -162,6 +162,7 @@ pub fn init() {
                 .expect("unary call method already set");
         });
     } else {
-        panic!("Can't find unaryCall signature");
+        error!("Can't find unaryCall signature");
+        return;
     }
 }
