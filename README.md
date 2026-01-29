@@ -5,12 +5,11 @@
 **An Xposed module designed to extend Snapchat with power user features.**
 <br/>
 **Supporting both `rooted` and `unrooted` devices**
-<!-- Uncomment when v1.0.0 is released
-[![Downloads](https://img.shields.io/github/downloads/bocajthomas/SE-Extended/total?style=for-the-badge&color=white&labelColor=black)](https://github.com/bocajthomas/SE-Extended/releases)
--->
+
 <br/>
 
 [![](https://img.shields.io/github/actions/workflow/status/bocajthomas/SE-Extended/debug.yml?style=for-the-badge&label=Builds&color=white&labelColor=black&logoColor=white)](https://github.com/bocajthomas/SE-Extended/actions/workflows/debug.yml)
+[![Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fse-extended.bocajsolutions.co.uk%2Factions%2Fartifacts%2Fdownloads%2F&query=badge_downloads&label=downloads&style=for-the-badge&color=white&labelColor=black)](https://github.com/bocajthomas/SE-Extended/actions)
 ![Weblate project translated](https://img.shields.io/weblate/progress/se-extended?style=for-the-badge&label=Translated&color=white&labelColor=black&logoColor=white)
 
 <br/>
