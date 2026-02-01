@@ -10,7 +10,6 @@ import me.rhunk.snapenhance.storage.getRuleTrackerScopes
 import me.rhunk.snapenhance.storage.getTrackerEvents
 import me.rhunk.snapenhance.storage.updateFriendScore
 
-
 class RemoteTracker(
     private val context: RemoteSideContext
 ): TrackerInterface.Stub() {

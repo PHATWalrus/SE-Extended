@@ -7,7 +7,6 @@ import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -16,7 +15,6 @@ import androidx.compose.material.icons.rounded.Add
 import androidx.compose.material.icons.rounded.Paid
 import androidx.compose.material.icons.rounded.BugReport
 import androidx.compose.material.icons.rounded.DashboardCustomize
-import androidx.compose.material.icons.rounded.DataObject
 import androidx.compose.material.icons.rounded.Edit
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material3.*
@@ -229,7 +227,6 @@ class HomeRootSection : Routes.Route() {
                     }
                 }
             }
-
             var shouldShowUpdates by context.sharedPreferences.rememberMutableBooleanPreferenceState(
                 key = "app_update_checker",
                 defaultValue = true

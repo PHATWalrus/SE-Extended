@@ -12,7 +12,6 @@ import me.rhunk.snapenhance.storage.getEnabledThemesContent
 import java.io.File
 import java.io.OutputStream
 
-
 class ByteArrayFileHandle(
     private val context: RemoteSideContext,
     private val data: ByteArray

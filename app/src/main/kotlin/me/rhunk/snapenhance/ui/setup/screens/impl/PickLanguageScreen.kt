@@ -23,7 +23,6 @@ import me.rhunk.snapenhance.common.ui.lazyColumnContentPadding
 import me.rhunk.snapenhance.ui.setup.screens.SetupScreen
 import java.util.Locale
 
-
 class PickLanguageScreen : SetupScreen(){
     private val availableLocales by lazy {
         LocaleWrapper.fetchAvailableLocales(context.androidContext)

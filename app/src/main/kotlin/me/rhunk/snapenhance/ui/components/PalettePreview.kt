@@ -37,7 +37,6 @@ import androidx.compose.ui.unit.dp
 import me.rhunk.snapenhance.common.data.theme.AppPalette
 import me.rhunk.snapenhance.common.data.theme.ThemeMode
 
-
 // Old theme box component
 @Composable
 fun ThemeBox (

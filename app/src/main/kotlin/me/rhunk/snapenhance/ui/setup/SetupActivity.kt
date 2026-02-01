@@ -1,8 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3ExpressiveApi::class)
 package me.rhunk.snapenhance.ui.setup
 
-import android.content.Context.MODE_PRIVATE
-import android.content.Context
 import android.annotation.SuppressLint
 import android.os.Build
 import android.os.Bundle
@@ -27,7 +25,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.unit.dp
-import androidx.core.view.WindowCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
