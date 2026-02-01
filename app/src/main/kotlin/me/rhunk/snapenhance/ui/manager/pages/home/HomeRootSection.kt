@@ -7,12 +7,16 @@ import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.Help
+import androidx.compose.material.icons.rounded.Add
 import androidx.compose.material.icons.rounded.Paid
 import androidx.compose.material.icons.rounded.BugReport
+import androidx.compose.material.icons.rounded.DashboardCustomize
+import androidx.compose.material.icons.rounded.DataObject
 import androidx.compose.material.icons.rounded.Edit
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material3.*
@@ -218,6 +222,14 @@ class HomeRootSection : Routes.Route() {
             val selectedTiles = rememberAsyncMutableStateList(defaultValue = listOf()) {
                 context.database.getQuickTiles()
             }
+            val mappedTiles by remember(selectedTiles.size, context.translation.loadedLocale) {
+                derivedStateOf {
+                    selectedTiles.mapNotNull { tileKey ->
+                        cards.entries.find { it.key.first == tileKey }
+                    }
+                }
+            }
+
             var shouldShowUpdates by context.sharedPreferences.rememberMutableBooleanPreferenceState(
                 key = "app_update_checker",
                 defaultValue = true
@@ -435,7 +447,7 @@ class HomeRootSection : Routes.Route() {
                     onClick = { showQuickActionsMenu = !showQuickActionsMenu },
                     shapes = IconButtonDefaults.shapes()
                 ) {
-                    Icon(Icons.Rounded.Edit, contentDescription = null)
+                    Icon(if (mappedTiles.isEmpty()) Icons.Rounded.Add else Icons.Rounded.Edit, contentDescription = null)
                 }
 
                 if (showQuickActionsMenu) {
@@ -496,48 +508,84 @@ class HomeRootSection : Routes.Route() {
                 }
             }
 
-            FlowRow(
-                modifier = Modifier.fillMaxWidth(),
-                maxItemsInEachRow = 3,
-                horizontalArrangement = Arrangement.spacedBy(5.dp),
-                verticalArrangement = Arrangement.spacedBy(5.dp)
-            ) {
-                val tileHeight = LocalDensity.current.run {
-                    remember { (context.androidContext.resources.displayMetrics.widthPixels / 3).toDp() - cardMargin / 2 }
-                }
-
-                remember(selectedTiles.size, context.translation.loadedLocale) {
-                    selectedTiles.mapNotNull {
-                        cards.entries.find { entry -> entry.key.first == it }
-                    }
-                }.forEach { (card, action) ->
+            if (mappedTiles.isEmpty()) {
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
+                ) {
                     ElevatedCard(
                         modifier = Modifier
-                            .height(tileHeight)
-                            .weight(1f),
-                        onClick = { action(routes) },
-                        shape = cardShapeSingle
+                            .padding(16.dp)
+                            .size(200.dp),
+                        shape = MaterialShapes.Arrow.toShape()
                     ) {
-                        Column(
-                            modifier = Modifier
-                                .fillMaxSize()
-                                .padding(all = 5.dp),
-                            horizontalAlignment = Alignment.CenterHorizontally,
-                            verticalArrangement = Arrangement.SpaceEvenly
+                        Box(
+                            modifier = Modifier.fillMaxSize(),
+                            contentAlignment = Alignment.Center
                         ) {
                             Icon(
-                                imageVector = card.second, contentDescription = null,
-                                tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                                modifier = Modifier.size(42.dp)
+                                imageVector = Icons.Rounded.DashboardCustomize,
+                                contentDescription = null,
+                                modifier = Modifier.size(80.dp)
                             )
-                            Text(
-                                text = card.first,
-                                lineHeight = 16.sp,
-                                fontSize = 11.sp,
-                                fontWeight = FontWeight.Bold,
-                                textAlign = TextAlign.Center,
-                                overflow = TextOverflow.Ellipsis
-                            )
+                        }
+                    }
+                    Text(
+                        text = translation["quick_actions_empty"],
+                        style = MaterialTheme.typography.bodyMedium,
+                        modifier = Modifier.padding(8.dp)
+                    )
+                    Text(
+                        text = translation["quick_actions_empty_desc"],
+                        style = MaterialTheme.typography.bodySmall,
+                        modifier = Modifier.padding(8.dp)
+                    )
+                }
+            } else {
+                FlowRow(
+                    modifier = Modifier.fillMaxWidth(),
+                    maxItemsInEachRow = 3,
+                    horizontalArrangement = Arrangement.spacedBy(5.dp),
+                    verticalArrangement = Arrangement.spacedBy(5.dp)
+                ) {
+                    val tileHeight = LocalDensity.current.run {
+                        remember { (context.androidContext.resources.displayMetrics.widthPixels / 3).toDp() - cardMargin / 2 }
+                    }
+
+                    remember(selectedTiles.size, context.translation.loadedLocale) {
+                        selectedTiles.mapNotNull {
+                            cards.entries.find { entry -> entry.key.first == it }
+                        }
+                    }.forEach { (card, action) ->
+                        ElevatedCard(
+                            modifier = Modifier
+                                .height(tileHeight)
+                                .weight(1f),
+                            onClick = { action(routes) },
+                            shape = cardShapeSingle
+                        ) {
+                            Column(
+                                modifier = Modifier
+                                    .fillMaxSize()
+                                    .padding(all = 5.dp),
+                                horizontalAlignment = Alignment.CenterHorizontally,
+                                verticalArrangement = Arrangement.SpaceEvenly
+                            ) {
+                                Icon(
+                                    imageVector = card.second, contentDescription = null,
+                                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    modifier = Modifier.size(42.dp)
+                                )
+                                Text(
+                                    text = card.first,
+                                    lineHeight = 16.sp,
+                                    fontSize = 11.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    textAlign = TextAlign.Center,
+                                    overflow = TextOverflow.Ellipsis
+                                )
+                            }
                         }
                     }
                 }

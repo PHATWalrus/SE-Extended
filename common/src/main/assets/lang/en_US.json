@@ -72,7 +72,9 @@
                 "debug_build_summary_title": "You are running an debug build of SE Extended",
                 "debug_build_summary_content": "Version {versionName} ({versionCode})",
                 "debug_build_summary_date": "Build date: {date} ({days} days ago)",
-                "quick_actions_title": "Quick Actions"
+                "quick_actions_title": "Quick Actions",
+                "quick_actions_empty": "No quick actions added",
+                "quick_actions_empty_desc": "Click the + to add quick actions"
             },
             "home_logs": {
                 "no_logs_hint": "No logs available",
